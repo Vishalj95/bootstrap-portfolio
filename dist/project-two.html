@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- urlbar color in mobile -->
+    <meta name="theme-color" content="#333" />
+    <title>Project Two</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- main section -->
+    <div class="project-two main-section" id="home">
+        <!-- main container -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="headline head-space">
+                        <h2 class="section-title">PROJECT EARTH</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- project details section -->
+    <div id="project1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 p-5 pl-5">
+                    <p><strong>CLIENT : </strong> ClientCompanyName</p>
+                    <p><strong>TYPE : </strong> Business</p>
+                    <p><strong>ROLE : </strong> Programming</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- 1st col -->
+                <div class="col-md-6 p-3">
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim porro
+                        obcaecati a tempora aliquam in atque et fugiat perspiciatis quam distinctio asperiores quia
+                        odio voluptate, aperiam libero maiores voluptatem sapiente!</p>
+                </div>
+                <!-- 2nd col -->
+                <div class="col-md-6 p-3">
+                    <p class="service-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolore
+                        nihil ipsam hic impedit obcaecati commodi temporibus numquam ratione id eveniet molestias
+                        dolores similique blanditiis? Explicabo est voluptas eligendi suscipit?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery section -->
+    <div class="gallery" id="gallery">
+        <div class="container-fluid">
+            <h1 class="text-center section-title mt-5">Gallery</h1>
+            <div class="row">
+                <!-- gallery images -->
+                <div class="col-md-3 no-padding">
+                    <img class="image-responsive img-fluid" src="images/gallery-image.jpg" alt="project-gallery-picture">
+                </div>
+                <div class="col-md-3 no-padding">
+                    <img class="image-responsive img-fluid" src="images/gallery-image.jpg" alt="project-gallery-picture">
+                </div>
+                <div class="col-md-3 no-padding">
+                    <img class="image-responsive img-fluid" src="images/gallery-image.jpg" alt="project-gallery-picture">
+                </div>
+                <div class="col-md-3 no-padding">
+                    <img class="image-responsive img-fluid" src="images/gallery-image.jpg" alt="project-gallery-picture">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navigation to HOME / NEXT PROJECT -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center p-5">
+                <a class="btn p-2 text-dark" href="index.html">BACK TO HOME</a>
+            </div>
+            <div class="col-md-6 text-center p-5">
+                <a class="btn p-2 text-dark" href="project-three.html">NEXT PROJERCT</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer" id="footer">
+        <div class="container text-center text-white">
+            <p class="p-5">Copyright &copy 2018 by BlackBox. Developed By <a href="https://github.com/vishalj95">Vishal</a>.</p>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- script for smooth scroll -->
+    <script>
+        $('a[href^="#"]').on('click', function (event) {
+
+            var target = $(this.getAttribute('href'));
+
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

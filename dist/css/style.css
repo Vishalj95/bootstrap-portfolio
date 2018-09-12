@@ -1,0 +1,181 @@
+body {
+    font-family: 'Asap', sans-serif;
+}
+
+/* scroll to top */
+.scroll-top img {
+    height: 2.5em;
+}
+
+/* HOME style */
+.jumbotron {
+    background: url(../images/main-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    min-height: 100vh;
+    background-color: #1b1b1b;
+    margin: 0;
+    color: #fff;
+    border-radius: 0%
+}
+/* navbar style */
+.navbar-brand fa {
+    font-size: 25px;
+}
+
+.navbar-dark {
+    border-color: black;
+}
+
+.head-space {
+    margin-top: 200px;
+}
+
+.bg-none{
+    color: #fff;
+    background-color: transparent;
+}
+
+/* COMMON style */
+.card {
+    border: 0px;
+}
+
+.section-title {
+    letter-spacing: 3px;
+    margin: 20px 0px;
+}
+
+/* ABOUT section style */
+.social .fa {
+    color: #222;
+    font-size: 35px;
+}
+
+.about-bg {
+    background: url(../images/about-bg.jpg) no-repeat center center;
+    min-height: 100vh;
+    background-size: cover; 
+}
+
+/* SERVICE section style */
+.services {
+    min-height: 100vh;
+}
+
+.service-title {
+    margin: 20px 0px;
+}
+
+.services .fa {
+    font-size: 80px !important;
+    margin: 20px 0px;
+}
+
+.service-text {
+    margin: 20px 0px;
+    line-height: 2em;
+}
+
+/* WORK section styles */
+.work {
+    min-height: 100vh;
+}
+
+.project1-bg {
+    background: url(../images/project1.jpg) no-repeat center center;
+    min-height: 100vh;
+    background-size: cover; 
+}
+.project2-bg {
+    background: url(../images/project2.jpg) no-repeat center center;
+    min-height: 100vh;
+    background-size: cover; 
+}
+.project3-bg {
+    background: url(../images/project3.jpg) no-repeat center center;
+    min-height: 100vh;
+    background-size: cover; 
+}
+
+.hov:hover {
+    color: #fff;
+}
+
+/* CLIENT style */
+.clients {
+    min-height: 100vh;
+}
+
+.client-say img {
+    height: 10em;
+}
+
+/* CONTACT section style */
+.contact {
+    min-height: 100vh;
+}
+
+.contact-bg {
+    background: url(../images/contact.jpg) no-repeat center center;
+    min-height: 100vh;
+    background-size: cover; 
+}
+
+.contact .fa {
+    font-size: 40px !important;
+    margin: 20px 0px;
+}
+
+/* footer section style */
+.footer {
+    background-color: #1b1b1b;
+}
+.footer a{
+    text-decoration: none;
+}
+
+/* MEDIA QUERY for mobile versions */
+@media only screen and (max-width: 600px) {
+    .contact .card {
+        text-align: center;
+    }
+}
+
+/* PROJECT PAGE STYLES */
+
+/* common style */
+.no-padding {
+    padding: 0px;
+}
+
+
+/* project ONE style */
+.main-section {
+    min-height: 100vh;
+    background-color: #1b1b1b;
+    margin: 0;
+    color: #fff;
+}
+
+.project-one {
+    background: url(../images/project1.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+}
+
+.project-two {
+    background: url(../images/project2.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+}
+
+.project-three {
+    background: url(../images/project3.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+}

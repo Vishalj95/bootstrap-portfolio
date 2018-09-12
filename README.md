@@ -8,7 +8,7 @@ BlackBox Bootstrap Portfolio Template is a responsive, one page portfolio [Boots
 
 ![Bio](./BB2.png)
 
-[DEMO](https://bootstrap-portfolio.github.io/)
+[DEMO](https://vishalj95.github.io/bootstrap-portfolio/)
 
 ## Usage
 
